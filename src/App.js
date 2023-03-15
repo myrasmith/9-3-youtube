@@ -6,14 +6,14 @@ import Home from "./pages/Home";
 import ShowVideo from "./pages/ShowVideo";
 
 function App() {
-  // const testYouTubeAPI = () => {
-  //   console.log(process.env.REACT_APP_YOUTUBE_API_KEY);
-  //   //fetch('');
-  // };
+  const testYouTubeAPI = () => {
+    console.log(process.env.REACT_APP_YOUTUBE_API_KEY);
+    //fetch('');
+  };
 
-  // useEffect(() => {
-  //   testYouTubeAPI();
-  // });
+  useEffect(() => {
+    testYouTubeAPI();
+  });
 
   return (
     <div className="App">
